@@ -2,7 +2,7 @@ const jsonServer=require('json-server')// import json server
 
 const docServer=jsonServer.create()// create a application using json server
 
-const router=jsonServer.router() // create router (means restuaent oru router and restaurent/details verea router )
+const router=jsonServer.router('db.json') // create router (means restuaent oru router and restaurent/details verea router )
 
 const middleware=jsonServer.defaults()// creating middle wares
 
